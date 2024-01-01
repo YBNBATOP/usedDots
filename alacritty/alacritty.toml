@@ -1,0 +1,39 @@
+[colors.normal]
+black = "#1D1F21"
+blue = "#6694E5"
+cyan = "#00CED1"
+green = "#AFE1AF"
+magenta = "#B990F1"
+red = "#BF616A"
+white = "#D8DEE9"
+yellow = "#FFFF8F"
+
+[colors.primary]
+background = "#000000"
+foreground = "#9BA4CA"
+
+
+[cursor.style]
+blinking = "On"
+shape = "Underline"
+
+[env]
+TERM = "alacritty"
+
+[font]
+size = 6.0
+
+[font.normal]
+family = "MesloLGS Nerd Font"
+style = "Regular"
+
+[font.offset]
+x = 0
+y = 0
+
+[window]
+opacity = 0.8
+
+[window.padding]
+x = 5
+y = 5
