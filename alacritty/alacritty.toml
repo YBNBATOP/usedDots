@@ -1,27 +1,31 @@
-[colors.normal]
-black = "#1D1F21"
-blue = "#6694E5"
-cyan = "#00CED1"
-green = "#AFE1AF"
-magenta = "#B990F1"
-red = "#BF616A"
-white = "#D8DEE9"
-yellow = "#FFFF8F"
+import = [
+  "~/.config/alacritty/catppuccin-mocha.toml"
+]
 
-[colors.primary]
-background = "#000000"
-foreground = "#9BA4CA"
+#[colors.normal]
+#black = "#1D1F21"
+#blue = "#6694E5"
+#cyan = "#00CED1"
+#green = "#AFE1AF"
+#magenta = "#B990F1"
+#red = "#BF616A"
+#white = "#D8DEE9"
+#yellow = "#FFFF8F"
+
+#[colors.primary]
+#background = "#000000"
+#foreground = "#9BA4CA"
 
 
 [cursor.style]
 blinking = "On"
-shape = "Underline"
+shape = "Block"
 
 [env]
 TERM = "alacritty"
 
 [font]
-size = 6.0
+size = 8.0
 
 [font.normal]
 family = "MesloLGS Nerd Font"
